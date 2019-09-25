@@ -23,6 +23,8 @@ from azure.common.credentials import ServicePrincipalCredentials
 
 # Imports
 import os
+import csv
+from azure.cli.core import get_default_cli
 from azure.mgmt.resource import ResourceManagementClient, SubscriptionClient
 from azure.mgmt.sqlvirtualmachine import SqlVirtualMachineManagementClient
 from msrestazure.azure_exceptions import CloudError
